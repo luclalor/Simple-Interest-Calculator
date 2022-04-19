@@ -1,4 +1,15 @@
-body {background-color:white;}
-h1{color:grey;}
-
-
+.maindiv {
+        background-color:white;
+        color:black;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 300px;
+        padding: 20px;
+        border: solid;
+        border-radius: 25px;
+        border-width: thick;
+        margin: auto
+    }
+h1{
+    color:grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
