@@ -13,3 +13,9 @@ h1{
     color:grey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+}

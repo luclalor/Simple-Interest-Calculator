@@ -10,7 +10,7 @@
 
         Amount <input type="text"  id="principal">  <br/>
         <br/>
-        Interest Rate <input type="range" min = "1" max = "20" value = "10.25" id="range"><span id = "rate_val">10.25%</span>
+        Interest Rate <input type="range" min = "1" max = "20" value = "10.25" step = "0.25" id="rate" onchange="updateRate()"><span id = "rate_val">10.25%</span>
         <br/>
         <br/>
         <label for ="Years">No. of Years:</label>
