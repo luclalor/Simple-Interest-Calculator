@@ -53,3 +53,11 @@ function updateRate(){
     document.getElementById("rate_val").innerText=rateval;
 }
 
+    /*var convertPrincipal = parseInt(principal);
+        if (convertPrincipal<=0){
+            alert("Please enter an amount greater than 0");
+            document.getElementById("principal").value = "";
+            var convertPrincipal = "";
+            document.getElementById("principal").focus();
+        }
+    }*/
