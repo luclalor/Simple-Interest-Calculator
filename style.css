@@ -19,3 +19,8 @@ body {
     font-family: arial;
     color: white;
 }
+
+mark {
+    background-color: blue;
+    color: black;
+}
