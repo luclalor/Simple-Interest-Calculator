@@ -5,7 +5,7 @@ function compute()
     var years = document.getElementById("Years").value; //get the years
     var futureyear = new Date().getFullYear()+parseInt(years);
     var amount = principal*years*rate/100; //take the values retrieved and execute the simple interest calculation
-    var result = document.getElementById("result").innerHTML = "If you deposit "+principal+",\<br>\at an interest rate of "+rate+"%.\<br\>You will receive an amount of "+amount+"$ in the year "+futureyear+"."
+    var result = document.getElementById("result").innerHTML = "If you deposit <mark>"+principal+"</mark>,\<br>\at an interest rate of <mark>"+rate+"%</mark>.\<br\>You will receive an amount of <mark>"+amount+"$</mark> in the year <mark>"+futureyear+"</mark>."
     return result;
 }
 
@@ -23,4 +23,3 @@ function updateRate(){
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
 }
-
