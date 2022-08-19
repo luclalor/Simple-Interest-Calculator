@@ -16,7 +16,7 @@ function validateInput(){
     var input = document.getElementById("principal").value;
     var isvalid = true
     if (isNaN(input) || input < 1){
-        document.getElementById("result").innerHTML = "Enter a positive number.";
+        window.alert("Enter a positive number");
         isvalid = false;
     }
         return isvalid ///isvalid would be false if the validation did not pass
